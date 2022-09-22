@@ -53,4 +53,4 @@ Listed below are the  requirements you will need to complete for your individual
 
 ## Submission and Publishing your lab
 
-Your project folder will need to be submitted in 2 different ways.  You will need to submit a zipped/compressed folder titled "lab3" to Canvas by the due and and time listed.  You will also need to submit your assignment folder to the issued GitHub repository for lab 3. Click on the link below to accept your lab 3 repository.  Please include all images or files that may accompany your lab within the project folder.
+Your project folder will need to be submitted to the assigned GitHub repository provided to you by the instructor. In Sakai, you will need to submit the link to your repository by the due date and time listed in the write-up. Make sure you receive confirmation from Sakai that your assignment has been submitted. Submission video instructions [here](https://instructorc.github.io/site/slides/presentation/video/github_upload.mp4) 
