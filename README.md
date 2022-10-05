@@ -49,7 +49,7 @@ Listed below are the  requirements you will need to complete for your individual
     1. Add a width of 275px;
     2. Center the copyright text by adding margin: auto.
 11. Remove all borders, validate and visual inspect site in browser
-12. Upload a zipped project folder to Canvas and publish your project folder to your play.dunwoody.edu user space in a folder titled “lab3”.
+12. Follow the instructions under the Submission and Publishing guidelines. Make sure you publish your site to GitHup pages and visually inspect your work.
 
 ## Submission and Publishing your lab
 
