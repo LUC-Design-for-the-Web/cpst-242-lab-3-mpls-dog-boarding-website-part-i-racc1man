@@ -45,7 +45,7 @@ Listed below are the  requirements you will need to complete for your individual
     * Create a style rule that targets the body element and add the two declarations below:
         * font-family: 'Montserrat', sans-serif;
         * margin: 0;
-10. Create a style rule that targets the <div id=”copyright”> tag within the footer and provide the following declarations:
+10. Create a style rule that targets the ```<div id=”copyright”>``` tag within the footer and provide the following declarations:
     1. Add a width of 275px;
     2. Center the copyright text by adding margin: auto.
 11. Remove all borders, validate and visual inspect site in browser
