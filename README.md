@@ -13,8 +13,8 @@ Listed below are the  requirements you will need to complete for your individual
 3. Include the required meta tags discussed in class within the head of your site. The content attributes for each meta tag should be adjusted to reflect site content.
 4. **Implement CSS Grid:** Create a style rule that targets the ```<div id=”container”>``` and add properties that will accomplish the below
     * Create grid items of the children of ```<div id=”container”>``` Hint: use display property
-    * Define three columns that are equal size
-    * Define three rows that are 105px auto 15%
+    * Define three grid columns that are equal size
+    * Define three grid rows that are 105px auto 15%
     * Make the width of the container 100vw and the height 100vh
 5.  **Place items in Grid:** Using either line numbers or area names, place the header, main and footer into the grid with the following dimensions. Make sure to give each grid item a **border**.
     * The header will occupy the all three columns of the first row
