@@ -2,39 +2,65 @@
 <!--Rocio Chavez-->
 <html>
     <head>
+       
         <title>MPLS Dogboarding </title>
         <meta charset="UTF-8">
-  <meta name="description" content="MPLS Dogbording Homepage with prices and hours of service">
-  <meta name="keywords" content="Dog service, grooming, boarding, and prices">
-  <meta name="author" content="Rocio Chavez">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <!--Internal CSS Method
-  -->
-  <style>
+        <meta name="description" content="MPLS Dogbording Homepage with prices and hours of service">
+        <meta name="keywords" content="Dog service, grooming, boarding, and prices">
+        <meta name="author" content="Rocio Chavez">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"rel="stylesheet">
 
-html {
-        background:url(./img/dog_bg.jpeg)
+         <!--Internal CSS-->
+                
+  <style>
+   
+   #font-family{
+        font-style: 'Montserrat', sans-serif;
+        margin: 0%; 
+   }
+
+#img{
+        display: block;
+        width: 20%;
+        margin: auto;
+    }
+
+ body{
+        background:url(./img/dog_bg.jpeg);
+        background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        width: 100%;
-        }
+        width: 100%;  
+     }
 
-p.a {
-  font-family: 'Montserrat', sans-serif;
-  margin: 0;
-}
-        
-       #container{
+    #container{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 105px auto 15%;
         grid-template-areas: "head head head"
                              "main main main"
                              "foot foot foot";
-        width: 100vw;
+                                                
+        width: 100vw; 
         height: 100vh;
        }
+
+       #container aside{
+            flex-grow: 1;
+            flex-shrink: 0;
+            flex-basis: 325px; 
+            height: 350px;
+            width: 350px;
+            margin: 25px;
+            padding: 10px;
+            border: 2px solid purple;
+            margin-top: 4%; bottom: 4%; right: 2%; left: 2%;
+            background-color:#ffffffcf;
+            border-radius: 10px;
+       }
+
+      
        header{
             grid-area: head;
             display:block;
@@ -42,62 +68,70 @@ p.a {
             margin: auto;  
        }   
 
-       .img{
-        display: block;
-        width: 20%;
-        margin: auto;
-       }
-
-       #flexcontainer{
+      #flexcontainer{
+            display: flex;
             grid-area: main;
-            display: block;
             flex-wrap: wrap;
             width: 100%;
+            padding: 350px;
             margin: auto;
+       }     
 
-       }
        footer{
             grid-area: foot;
             margin: auto;
             width: 275px;
-            padding-top: 40%;
+            padding-top: 40px;
+       }   
+
+       #copyright{
+            width: 275px;
+            margin: auto;
        }
-    
-     .flex_item{
-        flex-grow: 1;
-        flex-shrink: 0;
-        flex-basis: 325px;
-        border: 2px solid purple;
-        padding: 10px;
-        height: 350px;
-        margin-top: 4%; bottom: 4%; right: 2%; left: 2%;
-        background-color:#ffffffcf;
-        border-radius: 10px;
-     }
 
-     </style> 
-
-     <!--External CSS File-->
-     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"rel="stylesheet">
- </head>
- <body>
-
-    <body style="background-image: url(./img/dog_bg.jpeg)"> 
-      
-    <div id="container">
-        <aside class="flex_item"><h2>About US</h2>   <p>Quality dog care service - The luxury hotel for dogs!</p> <p>Serving the MPLS area for well over 10 years!</p></aside> 
-        <aside class="flex_item"><h2>Price</h2> <h3>Weekly Boarding</h3><p>$425 - 7 days [24 hours from drop-off time] </li><h3>Daily Rate: </h3><p>$75 - 1 day [24 hours from drop-off time</p></aside>
-        <aside class="flex_item"><h2>Hours of Operation</h2> <ul><li>Monday: - 7am - 6pm</li><li>Tuesday: - 7am - 6pm</li><li>Wednesday: - 7am - 6pm</li><li>Thursday: 7am - 6pm</li> <li>Friday: 7am - 6pm</li> <h3>Weekend Hours</h3><li>Saturday and Sunday: 1pm - 9pm</li></aside>
-        <header>
-            <img src="img/mpls_dog_logo.png" alt="dog frame with mpls logo">            
-        </header>
-
-        <main id="flexcontainer">
-
+        </style>
+       
+    </head>
+    <body>
+       
+        <div id="container"> <!--grid container-->
+            <!--grid items-->
+           
+            <header>
+                <img src="img/mpls_dog_logo.png" alt="dog frame logo with mpls">
+                 <!--External CSS File-->
+     
+           
+    </header>
+            <main id="flexcontainer">
+                
+                <aside><h2>About Us</h2>
+                    <p>Quality dog care service - The luxury hotel for dogs!</p>
+                </aside>
+                <aside>
+                    <h2>Price</h2>
+                    <h3>Weekly Boarding</h3>
+                    <p>$425 - 7 days [24 hours from drop-off time] </li>
+                    <h3>Daily Rate: </h3>
+                    <p>$75 - 1 day [24 hours from drop-off time</p>
+                   
+                    </ul>
+                </aside>
+                <aside>
+                    <h2>Hours of Operation</h2>
+                    <ul>
+                        <li>Monday: - 7am - 6pm</li>
+                        <li>Tuesday: - 7am - 6pm</li>
+                        <li>Wednesday: - 7am - 6pm</li>
+                        <li>Thursday: 7am - 6pm</li>
+                        <li>Friday:</li>
+                        
+                        
+                    </ul>
+                </aside>
             </main>
             <footer>
-                <div id="copyright">	&#169;  2019 - 2024 MPLS Dogboarding</div>
-                <aside class="footer item"></aside>
+                <div id="copyright">&#169;  2019 - 2024 MPLS Dogboarding</div>
             </footer>
         </div>
     </body>
