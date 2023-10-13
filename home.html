@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--Rocio Chavez-->
-<html>
+<html lang="en">
     <head>
        
         <title>MPLS Dogboarding </title>
@@ -9,30 +9,26 @@
         <meta name="keywords" content="Dog service, grooming, boarding, and prices">
         <meta name="author" content="Rocio Chavez">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 
          <!--Internal CSS-->
                 
   <style>
    
-   #font-family{
-        font-style: 'Montserrat', sans-serif;
-        margin: 0%; 
+   body{ 
+        font-family: 'Montserrat', sans-serif;
+        margin: 0;
    }
+    
 
-#img{
+
+header img{
         display: block;
         width: 20%;
         margin: auto;
     }
 
- body{
-        background:url(./img/dog_bg.jpeg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        width: 100%;  
-     }
+ 
 
     #container{
         display: grid;
@@ -51,11 +47,11 @@
             flex-shrink: 0;
             flex-basis: 325px; 
             height: 350px;
-            width: 350px;
-            margin: 25px;
             padding: 10px;
-            border: 2px solid purple;
-            margin-top: 4%; bottom: 4%; right: 2%; left: 2%;
+            margin-top: 4%; 
+            margin-bottom: 4%; 
+            margin-right: 2%; 
+            margin-left: 2%;
             background-color:#ffffffcf;
             border-radius: 10px;
        }
@@ -63,9 +59,6 @@
       
        header{
             grid-area: head;
-            display:block;
-            width: 20%;
-            margin: auto;  
        }   
 
       #flexcontainer{
@@ -73,14 +66,13 @@
             grid-area: main;
             flex-wrap: wrap;
             width: 100%;
-            padding: 350px;
-            margin: auto;
+            background-image: url(./img/dog_bg.jpeg);
+            background-position: center center;
+            background-size: cover;
        }     
 
        footer{
             grid-area: foot;
-            margin: auto;
-            width: 275px;
             padding-top: 40px;
        }   
 
@@ -102,7 +94,7 @@
                  <!--External CSS File-->
      
            
-    </header>
+            </header>
             <main id="flexcontainer">
                 
                 <aside><h2>About Us</h2>
@@ -111,11 +103,10 @@
                 <aside>
                     <h2>Price</h2>
                     <h3>Weekly Boarding</h3>
-                    <p>$425 - 7 days [24 hours from drop-off time] </li>
+                    <p>$425 - 7 days [24 hours from drop-off time] </p>
                     <h3>Daily Rate: </h3>
                     <p>$75 - 1 day [24 hours from drop-off time</p>
                    
-                    </ul>
                 </aside>
                 <aside>
                     <h2>Hours of Operation</h2>
